@@ -9,7 +9,7 @@ var jobSchema = new Schema({
     postingDate: String,
     deadline: String,
     location: String,
-    salary: Number,
+    salary: String,
     description: String,
     category: String,
     companyID: { type: mongoose.Schema.Types.ObjectId, ref: Company },

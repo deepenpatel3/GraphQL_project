@@ -155,6 +155,18 @@ const RootQuery = new GraphQLObjectType({
                 }
             }
         },
+        searchJobs: {
+            type: GraphQLList(jobType),
+            args: { searchInput: { type: GraphQLString } },
+            async resolve(parent, args) {
+                console.log("args", args);
+                let jobs = await Job.find({ $or: [{ title: { $regex: '.*' + args.searchInput + '.*' } }, { companyName: { $regex: '.*' + args.searchInput + '.*' } }] }).populate("companyID");
+                if (jobs) {
+                    console.log("all jobs", jobs);
+                    return jobs;
+                }
+            }
+        },
         getAppliedJobs: {
             type: GraphQLList(jobType),
             args: { user_id: { type: GraphQLString } },
