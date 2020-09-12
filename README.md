@@ -1,6 +1,6 @@
 # Simulation of Handshake (joinhandshake.com) Using GraphQL
 
-**In this project I have tried to replicate the Handshake (joinhandshake.com) where the services offered by the Handshake for student and company is achieved using GraphQL(Data query and manipulation language).**
+**In this project I have tried to replicate the Handshake (joinhandshake.com) where the services offered by the Handshake for student and company are achieved using GraphQL(Data query and manipulation language).**
 
 Note: This project was mainly focused on GraphQL implementation, so I did not spend much time on Client Interfaces.<br>
 For projects with attractive, intuitive and user-focused client interfaces, please visit [AmazonReplica](https://github.com/deepenpatel3/AmazonReplica).
