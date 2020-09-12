@@ -1,6 +1,9 @@
 # Simulation of Handshake (joinhandshake.com) Using GraphQL
 
-In this project I have tried to replicate the Handshake (joinhandshake.com) where all the services offered by the Handshake for student and company is achieved using GraphQL(Data query and manipulation language).
+**In this project I have tried to replicate the Handshake (joinhandshake.com) where all the services offered by the Handshake for student and company is achieved using GraphQL(Data query and manipulation language).**
+
+Note: This project was mainly focused on GraphQL implementation, so I did not spend much time on Client Interfaces.<br>
+For projects with attractive, intuitive and user-focused client interfaces, please visit [AmazonReplica](https://github.com/deepenpatel3/AmazonReplica).
 
 ## Architecture Diagram
 <img width="602" alt="Screen Shot 2020-09-12 at 2 00 47 AM" src="https://user-images.githubusercontent.com/52833369/92991968-012ca500-f49c-11ea-96c9-a617e8f1736a.png">
@@ -25,7 +28,7 @@ In this project I have tried to replicate the Handshake (joinhandshake.com) wher
 <img width="1035" alt="Screen Shot 2020-09-12 at 1 43 17 AM" src="https://user-images.githubusercontent.com/52833369/92992050-b3fd0300-f49c-11ea-821e-39556b1ebe59.png">
 
 - Searchin for a job using keyword query:
-![image](https://user-images.githubusercontent.com/52833369/92992206-27534480-f49e-11ea-81b7-b2a00fffcc96.png)
+<img width="1036" alt="Screen Shot 2020-09-12 at 2 17 34 AM" src="https://user-images.githubusercontent.com/52833369/92992296-cd9f4a00-f49e-11ea-8efd-c17fa69ac68b.png">
 
 ## Getting Started
 
